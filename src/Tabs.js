@@ -19,12 +19,12 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
             activeTab === "FlightSearch"
               ? "rgba(255, 255, 255, 0.18)"
-              : "transparent", // Very transparent white
+              : "transparent",
         }}
         onClick={() => setActiveTab("FlightSearch")}
       >
@@ -39,10 +39,10 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
-            activeTab === "Stays" ? "rgba(255, 255, 255, 0.18)" : " transparent", // Very transparent white
+            activeTab === "StaysSearch" ? "rgba(255, 255, 255, 0.18)" : "transparent",
         }}
         onClick={() => setActiveTab("StaysSearch")}
       >
@@ -61,12 +61,12 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
             activeTab === "Cruises"
               ? "rgba(255, 255, 255, 0.18)"
-              : "transparent", // Very transparent white
+              : "transparent",
         }}
         onClick={() => setActiveTab("Cruises")}
       >
@@ -86,12 +86,12 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
             activeTab === "Trains"
               ? "rgba(255, 255, 255, 0.18)"
-              : "transparent", // Very transparent white
+              : "transparent",
         }}
         onClick={() => setActiveTab("Trains")}
       >
@@ -107,12 +107,12 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
             activeTab === "Car Rentals"
               ? "rgba(255, 255, 255, 0.18)"
-              : "transparent", // Very transparent white
+              : "transparent",
         }}
         onClick={() => setActiveTab("Car Rentals")}
       >
@@ -128,12 +128,12 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
             activeTab === "Ride Hailing"
               ? "rgba(255, 255, 255, 0.18)"
-              : "transparent", // Very transparent white
+              : "transparent",
         }}
         onClick={() => setActiveTab("Ride Hailing")}
       >
@@ -148,10 +148,10 @@ const Tabs = ({ setActiveTab, activeTab }) => {
           color: "white",
           fontWeight: 600,
           cursor: "pointer",
-          display: "flex", // Ensure the contents of the div are laid out in a row
-          alignItems: "center", // Align the image and text vertically
+          display: "flex",
+          alignItems: "center",
           backgroundColor:
-            activeTab === "eSims" ? "rgba(255, 255, 255, 0.18)" : "transparent", // Very transparent white
+            activeTab === "eSims" ? "rgba(255, 255, 255, 0.18)" : "transparent",
         }}
         onClick={() => setActiveTab("eSims")}
       >
