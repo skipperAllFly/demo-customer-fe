@@ -7,8 +7,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
   width: 100vw;
-  margin: 0; /* Ensure no margin on body */
-  padding: 0; /* Ensure no padding on body */
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -18,15 +18,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%; /* Ensure nav takes full width */
-  box-sizing: border-box; /* Include padding in width calculation */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .navbar-logo {
-  height: 40px; /* Example height, adjust as needed */
-  width: auto; /* Maintain aspect ratio */
-  margin-right: 5px; /* Space between logo and text */
-  vertical-align: middle; /* Align with the text */
+  height: 40px;
+  width: auto;
+  margin-right: 5px;
+  vertical-align: middle;
   background-color: #ffffff;
   border-radius: 30px;
   padding: 5px;
@@ -50,10 +50,10 @@ form {
   align-self: center;
   background-color: rgb(0, 59, 149);
   flex-direction: column;
-  width: 100%; /* Ensure search-area takes full width */
-  box-sizing: border-box; /* Include padding in width calculation */
-  margin: 0; /* Ensure no margin on search-area */
-  padding: 0; /* Ensure no padding on search-area */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .search {
@@ -71,7 +71,7 @@ form {
 
 input {
   padding: 1rem;
-  border: 5px solid rgb(255, 183, 0); /* Updated border color */
+  border: 5px solid rgb(255, 183, 0);
   border-radius: 10px;
   margin-right: 10px;
   margin-bottom: -30px;
@@ -79,32 +79,31 @@ input {
   font-size: 16px;
   color: #282c34;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gray shadow */
-  box-sizing: border-box; /* Ensure padding and border are included in the height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 input:hover {
-  box-shadow: 0 4px 8px rgba(255, 183, 0, 0.5); /* Yellow shadow on hover */
+  box-shadow: 0 4px 8px rgba(255, 183, 0, 0.5);
 }
 
 textarea {
   padding: 5px;
-  border: 5px solid rgb(255, 183, 0); /* Updated border color */
+  border: 5px solid rgb(255, 183, 0);
   border-radius: 10px;
   margin-right: 10px;
   margin-bottom: -30px;
   margin-top: 10px;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gray shadow */
-  box-sizing: border-box; /* Ensure padding and border are included in the height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 span {
   font-size: 1.25rem;
   font-weight: bold;
   padding: 10px;
-  /* background-color: rgb(0, 59, 149); */
   text-align: center;
 }
 
@@ -116,7 +115,7 @@ h3 {
 
 button {
   padding: 1.1rem 2rem;
-  border: 5px solid rgb(255, 183, 0); /* Updated border color */
+  border: 5px solid rgb(255, 183, 0);
   border-radius: 10px;
   color: white;
   font-weight: bold;
@@ -126,12 +125,12 @@ button {
   height: 66px;
   width: fit-content;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gray shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .search-button {
   padding: 1.1rem 2rem;
-  border: 5px solid rgb(255, 183, 0); /* Updated border color */
+  border: 5px solid rgb(255, 183, 0);
   border-radius: 10px;
   color: white;
   font-weight: bold;
@@ -142,7 +141,7 @@ button {
   height: 66px;
   width: fit-content;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gray shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
@@ -159,9 +158,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  /* width: 100%; Ensure the ul takes full width of its container */
-  white-space: nowrap; /* Prevents wrapping of items */
+  overflow-x: auto;
+  white-space: nowrap;
   margin-top: 50px;
   min-height: 300px;
   gap: 0.5rem;
@@ -176,9 +174,9 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   border-color: #d0d1d3;
-  width: 600px; /* Fixed width */
-  margin-right: 5px; /* Add space between items */
-  flex-shrink: 0; /* Prevents the items from shrinking */
+  width: 600px;
+  margin-right: 5px;
+  flex-shrink: 0;
 }
 
 li p {
@@ -201,13 +199,12 @@ li p {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding-left: 20px; /* Corrected missing unit */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+  padding-left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hotel-item {
   border-radius: 20px;
-  /* height: 10px; */
   padding: 10px;
   border-width: 1px;
   border-style: solid;
@@ -217,9 +214,9 @@ li p {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding-left: 20px; /* Corrected missing unit */
+  padding-left: 20px;
   padding-bottom: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .booking-detail {
@@ -228,15 +225,14 @@ li p {
   border-color: #d0d1d3;
   border-radius: 20px;
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
-  position: relative; /* Change to relative to work with flexbox centering */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
   z-index: 50;
-  background-color: white; /* Ensure it has a background color */
+  background-color: white;
 }
 
 .booking-card {
   border-radius: 20px;
-  /* height: 10px; */
   padding: 10px 20px 40px 0px;
   border-width: 1px;
   border-style: solid;
@@ -245,8 +241,8 @@ li p {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding-left: 20px; /* Corrected missing unit */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+  padding-left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 select {
@@ -256,7 +252,7 @@ select {
   margin-bottom: -30px;
   margin-top: 10px;
   font-size: 12px;
-  border: 5px solid rgb(255, 183, 0); /* Updated border color */
+  border: 5px solid rgb(255, 183, 0);
   border-radius: 10px;
 }
 
@@ -275,11 +271,11 @@ select {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  width: 100%; /* Ensure the ul takes full width of its container */
-  white-space: nowrap; /* Prevents wrapping of items */
-  padding-left: 0; /* No padding on the left */
-  margin-left: 0; /* No margin on the left */
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .inspiration-item {
@@ -295,17 +291,17 @@ select {
   height: 338px;
   flex-wrap: wrap;
   flex-direction: column;
-  position: relative; /* Set position to relative */
-  overflow: hidden; /* Ensures nothing spills out, especially for rounded corners */
+  position: relative;
+  overflow: hidden;
 }
 
 .inspiration-item img {
-  position: absolute; /* Position the image absolutely within the li */
+  position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% + 20px); /* Extend width to cover padding */
-  height: calc(100% + 20px); /* Extend height to cover padding */
-  object-fit: cover; /* Ensure the image covers the area without distorting */
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  object-fit: cover;
 }
 
 footer {
@@ -344,9 +340,8 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  /* width: 100%; Ensure the ul takes full width of its container */
-  white-space: nowrap; /* Prevents wrapping of items */
+  overflow-x: auto;
+  white-space: nowrap;
   margin-top: 10px;
   margin-left: 10px;
   min-height: 300px;
@@ -357,9 +352,8 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  /* width: 100%; Ensure the ul takes full width of its container */
-  white-space: nowrap; /* Prevents wrapping of items */
+  overflow-x: auto;
+  white-space: nowrap;
   margin-top: 50px;
   min-height: 300px;
   gap: 10px;
@@ -391,7 +385,7 @@ p {
   align-self: center;
   font-weight: 600;
   padding: 10px 15px;
-  border: 2px solid #fff; /* Thicker white border */
+  border: 2px solid #fff;
   border-radius: 50px;
   margin-bottom: 10px;
 }
@@ -463,85 +457,85 @@ label {
 }
 
 .order-form {
-  position: fixed; /* Fixed positioning to make it stay in place even on scrolling */
-  top: 50%; /* Position at half the height of the viewport */
-  left: 50%; /* Position at half the width of the viewport */
+  position: fixed;
+  top: 50%;
+  left: 50%;
   transform: translate(
     -50%,
     -50%
-  ); /* Shift the modal back by half its width and height to center it */
-  width: 80%; /* Set the width as desired, here it's 80% of the viewport width */
-  max-width: 600px; /* Maximum width of the modal */
-  height: auto; /* Height based on content */
-  padding: 20px; /* Padding inside the modal */
-  background-color: white; /* Background color of the modal */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
-  z-index: 1000; /* Ensure it sits on top of other content */
-  border-radius: 8px; /* Optional: rounded corners */
-  overflow: auto; /* Enable scrolling within the modal if content is large */
+  );
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+  overflow: auto;
 }
 
 .esim-order-list {
-  position: fixed; /* Fixed positioning to make it stay in place even on scrolling */
-  top: 50%; /* Position at half the height of the viewport */
-  left: 50%; /* Position at half the width of the viewport */
+  position: fixed;
+  top: 50%;
+  left: 50%;
   transform: translate(
     -50%,
     -50%
-  ); /* Shift the modal back by half its width and height to center it */
-  width: 80%; /* Set the width as desired, here it's 80% of the viewport width */
-  max-width: 600px; /* Maximum width of the modal */
-  height: auto; /* Height based on content */
-  padding: 20px; /* Padding inside the modal */
-  background-color: white; /* Background color of the modal */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
-  z-index: 1000; /* Ensure it sits on top of other content */
-  border-radius: 8px; /* Optional: rounded corners */
-  overflow: auto; /* Enable scrolling within the modal if content is large */
+  );
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+  overflow: auto;
 }
 
 .passenger-details {
-  position: fixed; /* Fixed positioning to make it stay in place even on scrolling */
-  top: 50%; /* Position at half the height of the viewport */
-  left: 50%; /* Position at half the width of the viewport */
+  position: fixed;
+  top: 50%;
+  left: 50%;
   transform: translate(
     -50%,
     -50%
-  ); /* Shift the modal back by half its width and height to center it */
-  width: 80%; /* Set the width as desired, here it's 80% of the viewport width */
-  max-width: 700px; /* Maximum width of the modal */
-  height: auto; /* Height based on content */
-  padding: 30px; /* Padding inside the modal */
+  );
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  padding: 30px;
   padding-bottom: 50px;
-  background-color: white; /* Background color of the modal */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: #282c34 5px solid;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  z-index: 1000; /* Ensure it sits on top of other content */
-  border-radius: 8px; /* Optional: rounded corners */
-  overflow: auto; /* Enable scrolling within the modal if content is large */
+  z-index: 1000;
+  border-radius: 8px;
+  overflow: auto;
 }
 
 .intermediate-travel-points {
   background-color: #fff;
-  position: fixed; /* Position the modal on top of everything else */
-  top: 50%; /* Center the modal vertically */
-  left: 50%; /* Center the modal horizontally */
+  position: fixed;
+  top: 50%;
+  left: 50%;
   transform: translate(
     -50%,
     -50%
-  ); /* Adjust the position to be exactly centered */
-  z-index: 1000; /* Ensure the modal is on top of other elements */
-  padding: 20px; /* Add some padding for better appearance */
-  border-radius: 8px; /* Optional: Add rounded corners */
+  );
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 8px;
   border: #282c34 2px solid;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
-  color: black; /* Optional: Set text color to white for better contrast */
-  max-width: 90%; /* Optional: Limit the width of the modal */
-  max-height: 90%; /* Optional: Limit the height of the modal */
-  overflow-y: auto; /* Optional: Add scroll if content overflows */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
 }
 
 table {
@@ -605,28 +599,28 @@ td {
   margin-left: 20px;
 }
 .order-success {
-  position: fixed; /* Fixed positioning to make it stay in place even on scrolling */
-  top: 50%; /* Position at half the height of the viewport */
-  left: 50%; /* Position at half the width of the viewport */
+  position: fixed;
+  top: 50%;
+  left: 50%;
   transform: translate(
     -50%,
     -50%
-  ); /* Shift the modal back by half its width and height to center it */
-  width: 80%; /* Set the width as desired, here it's 80% of the viewport width */
-  max-width: 700px; /* Maximum width of the modal */
-  height: auto; /* Height based on content */
-  padding: 30px; /* Padding inside the modal */
+  );
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  padding: 30px;
   padding-bottom: 50px;
   color: white;
   background-color: rgb(0, 59, 149);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: #282c34 5px solid;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  z-index: 1000; /* Ensure it sits on top of other content */
-  border-radius: 8px; /* Optional: rounded corners */
-  overflow: auto; /* Enable scrolling within the modal if content is large */
+  z-index: 1000;
+  border-radius: 8px;
+  overflow: auto;
 }
 
 .duration {
@@ -658,20 +652,19 @@ td {
 
 .origin-name {
   color: #626971;
-  font-size: 1rem; /* position: absolute; Position the element absolutely within its container */
+  font-size: 1rem;
   border: none;
 }
 
 .destination-name {
   color: #626971;
-  font-size: 1rem; /* position: absolute; Position the element absolutely within its container */
+  font-size: 1rem;
   border: none;
 }
 
 .departing-at {
   color: #626971;
   font-size: 1.5rem;
-  /* position: absolute; Position the element absolutely within its container */
   border: none;
   margin-bottom: 0px;
 }
@@ -679,24 +672,18 @@ td {
 .arriving-at {
   color: #626971;
   font-size: 1.5rem;
-  /* position: absolute; Position the element absolutely within its container */
   border: none;
   text-align: end;
 }
 
 .offer-item {
   border-radius: 0.75rem;
-  /* min-height: 220px; */
-  /* height: fit; */
   padding: 1rem;
-  /* border-width: 1px; */
   box-shadow: 0 1px 3px 0 #25201f4d;
   transition: opacity 0.2s ease-in-out;
-  /* margin: 20px; */
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  display: flex;
   align-items: center;
   justify-content: center;
   width: fit-content;
@@ -717,7 +704,7 @@ td {
   padding: 0.375rem 1rem;
   width: fit-content;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gray shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-left: 50px;
   margin-right: 30px;
 }
@@ -731,9 +718,9 @@ td {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1000; /* Ensure it appears above other elements */
-  width: 50vw; /* Adjust width as needed */
-  height: 50vh; /* Adjust width as needed */
+  z-index: 1000;
+  width: 50vw;
+  height: 50vh;
   text-align: center;
 }
 
@@ -759,17 +746,12 @@ td {
 
 .search-response-item {
   border-radius: 0.75rem;
-  /* min-height: 220px; */
-  /* height: fit; */
   padding: 1rem;
-  /* border-width: 1px; */
   box-shadow: 0 1px 3px 0 #25201f4d;
   transition: opacity 0.2s ease-in-out;
-  /* margin: 20px; */
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
@@ -782,48 +764,48 @@ td {
 }
 
 .booking-form {
-  position: fixed; /* Keeps it above other elements */
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Offset for perfect centering */
-  background-color: #fff; /* White background for the modal */
-  padding: 20px; /* Padding for inner spacing */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a raised effect */
-  border-radius: 8px; /* Rounded corners */
-  z-index: 1000; /* High z-index to ensure it stays on top */
-  width: 90vw; /* Set a width, adjust as needed */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 .booking-confirmation {
-  position: fixed; /* Keeps it above other elements */
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Offset for perfect centering */
-  background-color: #fff; /* White background for the modal */
-  padding: 20px; /* Padding for inner spacing */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a raised effect */
-  border-radius: 8px; /* Rounded corners */
-  z-index: 1000; /* High z-index to ensure it stays on top */
-  width: 90vw; /* Set a width, adjust as needed */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 .offer-information {
-  position: fixed; /* Keeps it above other elements */
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Offset for perfect centering */
-  background-color: #fff; /* White background for the modal */
-  padding: 20px; /* Padding for inner spacing */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a raised effect */
-  border-radius: 8px; /* Rounded corners */
-  z-index: 1000; /* High z-index to ensure it stays on top */
-  width: 90vw; /* Set a width, adjust as needed */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   gap: 30px;
